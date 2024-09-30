@@ -1,0 +1,69 @@
+/*File: service.css
+Name: Devlyn Andersen
+Student Number: 301444288
+Date: 2024-09-27
+*/
+
+/*---------------------------------------------
+CSS Styles For Skill Block Elements
+---------------------------------------------*/
+#skill {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin: 0 auto;
+}
+.skillTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.skillDesc{
+    font-weight: 400;
+    font-size:xx-large;
+    max-width: 60em;
+    padding: 0 2rem;
+}
+.skillBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skillBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    background: blue;
+}
+.skillBarImg{
+    object-fit: cover;
+    height: 6rem;
+    width: 12rem;
+    margin-right: 2rem;
+}
+.skillBarText>p{
+    font-size:1.5rem;
+    font-weight: 700;
+}
+
+
+/*---------------------------------------------
+CSS Styles For Menu Background
+---------------------------------------------*/
+.menubar2 {
+    position:absolute;
+    height: 142.2%;
+    background-color: black;
+    z-index: -1;
+    width: 129px;
+    border: 2px solid white;
+}

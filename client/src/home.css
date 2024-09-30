@@ -1,0 +1,44 @@
+/*File: home.css
+Name: Devlyn Andersen
+Student Number: 301444288
+Date: 2024-09-27
+*/
+
+html{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------------------------------------
+CSS Styles For Text Related Elements
+---------------------------------------------*/
+#intro {
+height: calc(100vh -4em);
+width: 100vw;
+max-width: 75em;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+font-size:x-large;
+}
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2em;
+    font-size: 3em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello {
+    font-size: 1.75rem;
+    font-weight:100;
+}
+.introName {
+    color: yellow;
+}
+.introPara {
+    font-size: medium;
+    font-weight: 100;
+}

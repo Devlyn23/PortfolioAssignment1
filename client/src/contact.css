@@ -1,0 +1,43 @@
+/*File: contact.css
+Name: Devlyn Andersen
+Student Number: 301444288
+Date: 2024-09-27
+*/
+
+/*---------------------------------------------
+CSS Styles For Text Related Elements
+---------------------------------------------*/
+.head {
+    font-size:xx-large;
+    text-align: center;
+    font-weight: bold;
+    height: 75px;
+}
+.body {
+    font-size:x-large;
+    text-align: center;
+}
+
+
+/*---------------------------------------------
+CSS Styles For Form Related Elements
+---------------------------------------------*/
+label{
+    font-size:xx-large;
+    color: white;
+}
+input{
+    font-size: larger;
+}
+.submit{
+    font-size:x-large;
+}
+#ffp{
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+

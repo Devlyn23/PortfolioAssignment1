@@ -1,0 +1,225 @@
+/*File: index.css
+Name: Devlyn Andersen
+Student Number: 301444288
+Date: 2024-09-27
+*/
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*---------------------------------------------
+CSS Styles For Link and Anchor Elements
+---------------------------------------------*/
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  font-size:x-large;
+  text-align: center;
+}
+a:hover {
+  color: #535bf2;
+}
+.abtpg {
+  padding: 10px;
+  font-size: 20px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 1rem;
+  margin: 350px;
+}
+nav {
+  width: 130px;
+}
+.navcon {
+  position: absolute;
+  width: 100%;
+  background-color: #101010;
+}
+.navig {
+  margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  border: 1px solid rgb(57, 55, 55);
+}
+.menuline {
+  border:1px solid rgb(57, 55, 55);
+}
+.resumelnk {
+  margin-bottom: 50px;
+}
+
+
+/*---------------------------------------------
+CSS For Text and Title Elements
+---------------------------------------------*/
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+}
+.layTitle {
+  padding-top: 45px;
+  padding-left: 20px;
+  color: white;
+}
+h5 {
+  margin-left: 330px;
+  color: white;
+}
+h2 {
+  color: white;
+}
+.introContent {
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: 1em;
+  font-size: 3em;
+  font-weight: 700;
+  justify-content: center;
+}
+.hello {
+  font-size: 1.75rem;
+  font-weight:100px;
+}
+.textBody {
+  font-size: 26px;
+  width: 50%;
+}
+.aboutCont {
+  margin-left: 200px;
+  padding-top: 50px;
+}
+.introPara {
+  width: 65%;
+  font-size: 30px;
+  font-weight: 100;
+}
+.missionPara {
+  margin-top: -32px;
+  width: 65%;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+p {
+  color: white;
+}
+span {
+  color: white;
+}
+
+
+/*---------------------------------------------
+CSS For Color Scheme for Other Media Devices
+---------------------------------------------*/
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}
+
+
+/*---------------------------------------------
+CSS For Image Element Styles
+---------------------------------------------*/
+.profile {
+  position: absolute;
+  right: 3%;
+}
+.profilepic {
+  position: absolute;
+  left: 65%;
+  top: 350px;
+}
+
+
+/*---------------------------------------------
+CSS For Background and Line Styles
+---------------------------------------------*/
+.topBar {
+  background-color: blue;
+  margin-bottom: -35px;
+}
+.titleBar {
+  background-color: black;
+  height: 150px;
+}
+.menu {
+  position:absolute;
+  background-color: black;
+  z-index: -1;
+  width: 129px;
+  border: 2px solid white;
+  height: 105%;
+}
+.menu3 {
+  position:absolute;
+  background-color: black;
+  z-index: -1;
+  width: 129px;
+  border: 2px solid white;
+  height: 97.4%;
+}
+.menu4 {
+  position:absolute;
+  background-color: black;
+  z-index: -1;
+  width: 129px;
+  border: 2px solid white;
+  height: 95.4%;
+}
+hr {
+  margin: 0px;
+}
+.FootSec {
+  background-color: black;
+  text-align: center;
+  height: 60px;
+  padding-top: 10px;
+  margin-top: -1.5em;
+}
+.FootSec1 {
+  background-color: black;
+  text-align: center;
+  height: 60px;
+  padding-top: 10px;
+}
+.FootSec2 {
+  background-color: black;
+  text-align: center;
+  height: 60px;
+  padding-top: 10px;
+  margin-top: 0%;
+}
+.contaniner1 {
+  background-color: #242424;
+  height: 105%;
+}
